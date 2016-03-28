@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CaseFitTextView</string>
+    <string-array name="example">
+        <item >Неземной красоты</item>
+        <item >Прераснейщая из прекрасных</item>
+        <item >Несравненная</item>
+    </string-array>
+
+</resources>
