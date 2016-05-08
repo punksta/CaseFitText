@@ -6,9 +6,9 @@ Takes textView with fixed width(not wrap_content), array of strings, chouce the 
 
 
     TextView textView = findViewById(R.id.text);
-    apps.punksta.autofittext.AutoFitUtil(textView, "short" , "bigger then short", "the biggest text at all")
+    apps.punksta.autofittext.AutoFitUtil.setOptimalWidthText(textView, "short" , "bigger then short", "the biggest text at all")
     //or
-    apps.punksta.autofittext.AutoFitUtil(textView, R.string.my_array)
+    apps.punksta.autofittext.AutoFitUtil.setOptimalWidthText(textView, R.string.my_array)
     
 After onGlobalLayout() the optimal width string would be settet as text
 
